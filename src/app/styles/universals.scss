@@ -1,0 +1,16 @@
+@import 'variables';
+body{
+    background: linear-gradient(to right, #197f38, #1dce26);
+ 
+ }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $font-type;
+    padding: 40px;
+}
+

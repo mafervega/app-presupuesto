@@ -1,0 +1,16 @@
+
+body{
+   background: linear-gradient(to right, #197f38, #1dce26);
+
+}
+@mixin buttons (){
+ border: none;
+ padding: 5px 10px;
+ border-radius: 5px;
+ &:hover{
+    background-color: transparent;
+    cursor: pointer;
+ }
+//  background-color: $back-color;
+//  color: $color-font;
+}
