@@ -3,9 +3,9 @@
 @import 'mixings';
 
 body{
-    background: linear-gradient(to right, #197f38, #1dce26);
- 
- }
+    background: linear-gradient(to right, #f81f1f, #ea2c8e);
+    font-size: $font-xl;
+}
 
 .header{
     &__nav{
@@ -22,6 +22,11 @@ body{
     &--nav{
         background-color: $color-primary;
         color: #fff;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        padding: 16px;
+        font-size: $font-xl;
+        border-radius: 8px;
         &:hover{
             border: 1px solid $color-primary;
             color: $color-primary;
@@ -29,7 +34,11 @@ body{
     }
     &--success{
         background-color: $color-success;
-        color: #fff;
+        color: #eeebeb;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        padding: 16px;
+        font-size: $font-xl;
         &:hover{
             border: 1px solid  $color-success;
             color:  $color-success;
@@ -40,7 +49,7 @@ body{
 .form{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
 
     &__label{
         font-size: 14px;
@@ -49,10 +58,16 @@ body{
     }
 
     &__input{
-        padding: 55px 10px;
+        font-size: $font-xl;
+        padding: 20px 10px;
         border-radius: 5px;
         outline: none;
         border: 1px solid $color-primary;
+    }
+    &__select{
+        padding: 20px 10px;
+        font-size: $font-xl;
+        border-radius: 8px;
     }
 }
 
